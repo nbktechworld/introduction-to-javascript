@@ -4,7 +4,7 @@ Video: <https://www.youtube.com/watch?v=Clf_LN3EgBs>
 
 ## Wireframe
 
-![wireframe](wireframe.png)
+![wireframe](wireframe.png?)
 
 ## How to Run
 
