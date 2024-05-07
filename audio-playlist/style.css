@@ -1,1 +1,26 @@
 
+#audio-player {
+  margin-bottom: 8px;
+}
+
+#playlist {
+  border: 2px solid black;
+  border-radius: 4px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#playlist > li {
+  padding: 8px;
+  border-bottom: 2px solid #cccccc;
+  cursor: pointer;
+}
+
+.active, #playlist > li:hover {
+  background-color: #dddddd;
+}
+
+#playlist > li:last-child {
+  border-bottom: 0;
+}

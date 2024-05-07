@@ -4,6 +4,18 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <audio src="" controls id="audio-player"></audio>
+
+    <div>Playlist</div>
+    <div>Now playing: <span id="current-song"></span></div>
+    <ul id="playlist">
+      <li onclick="playItem(event)" data-url="https://github.com/nbktechworld/introduction-to-javascript/raw/master/audio-playlist/audio/1.%20Song%201.mp3">Song.mp3</li>
+      
+      <li onclick="playItem(event)" data-url="https://github.com/nbktechworld/introduction-to-javascript/raw/master/audio-playlist/audio/2.%20Song%202%20(Short%20Version).mp3">Song (Short Version).mp3</li>
+
+      <li onclick="playItem(event)" data-url="https://github.com/nbktechworld/introduction-to-javascript/raw/master/audio-playlist/audio/4.%20Lost%20in%20Dreams%20(No%20Actions).mp3">Lost in Dreams (No Actions)</li>
+    </ul>
+
     <script src="script.js"></script>
   </body>
 </html>
